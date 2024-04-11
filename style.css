@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.top {
+    display: flex;
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+.main nav {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    background-color: rgb(40, 147, 183)
+}
+
+.wh a {
+    color: beige;
+    text-decoration: none;
+
+}
+
+.main nav li {
+    display: inline-block;
+    padding: 0px 10px;
+
+}
+
+.main nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.main nav li a:hover {
+   background-color: #d01313;
+   padding: 5px;
+}
+
+.dropdown-toggle {
+    position: relative;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(40, 147, 183);
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li:hover {
+    background-color: rgb(40, 147, 183);
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: grid;
+    background-color: rgb(40, 147, 183);
+}
+
+.ad {
+    height: 20px;
+    width: 94vw;
+    border: 2px solid black;
+    margin: 20px -9px 20px 50px;
+}
+
+.move {
+    text-align: right;
+}
+
+.fixed {
+    /* display: inline-block; */
+    float: left;
+    margin-left: 50px;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    padding: 7px 9px 7px 5px;
+}
+.moveright {
+    float: right;
+    margin-right: 50px;
+    background-color: rgb(40, 147, 183);
+    color: white;
+    padding: 7px 9px 7px 5px;
+}
+.news1 p{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 88px;
+    margin-bottom: 10px;
+    padding: 60px 40px 60px 40px;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: x-large;
+}
+.box{
+    border: 2px solid grey;
+    margin: 33px 50px 33px 50px;
+}
+.news3{
+    font-size:small ;
+}
+.taja{
+    margin: 30px 50px 30px 50px;
+    font-size: x-large;
+    font-weight: bolder
+}
+.line{
+    margin: 30px 50px 30px 50px;
+    width: 94%;
+    height: 5px;
+    position: relative;
+    background-color:lightgray
+}
+.redline{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    background-color: brown
+}
+.greyline{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: lightgray;
+}
