@@ -8,19 +8,19 @@
   
     display: flex;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 120px;
 
 }
 .top img{
     margin-top: 24px;
-    margin-left: 120px;
+    
     height: 100%;
     width: 323px;
 }
 
 
 .main nav {
-    margin-top: 24px;
+    margin-top: 33px;
     height: 71px;
     width: 1200px;
     margin-left: 120px;
@@ -89,7 +89,7 @@
     height: 147px;
     width: 862px;
     border: 2px solid black;
-    margin: 24px -9px 20px 302px;
+    margin: 52px 276px 51px 302px;
     border-radius: 5px;
 }
 
@@ -100,6 +100,9 @@
 
 .fixed {
     /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     float: left;
     margin-left: 120px;
     color: white;
@@ -110,9 +113,16 @@
     width: 165.4px;
 }
 
+
+
+
+
 .moveright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     float: right;
-    margin-right: 50px;
+    margin-right: 147.5px;
     background-color: rgb(40, 147, 183);
     color: white;
     padding: 7px 9px 7px 5px;
