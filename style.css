@@ -393,8 +393,8 @@ button {
 }
 
 .imgmarg {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 48px;
+    margin-bottom: 58px;
 }
 
 .artha {
@@ -419,7 +419,7 @@ button {
     top: 0;
     left: 0;
     height: 100%;
-    width: 35%;
+    width: 45%;
     background-color: brown
 }
 
@@ -427,7 +427,7 @@ button {
     position: absolute;
     top: 0;
     right: 0;
-    width: 80%;
+    width: 67%;
     height: 100%;
     background-color: lightgray;
 
@@ -473,4 +473,46 @@ button {
     font-family: Arial, sans-serif;
     z-index: 1;
     padding: 13px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 36px 507px 36px 120px;
+    justify-content: space-between;
+    height: 310px;
+    width: 813px;
+}
+
+.photos>div {
+    border: 1px solid lightgrey;
+    margin-right: 24px;
+  
+}
+.photo1 img , .photo2 img , .photo3 img{
+    height: 215px;
+    width: 255px;
+}
+.photo1,.photo2,.photo3{
+height: 310px;
+width: 255px;
+}
+.sentence{
+    width: 210px;
+    height: 56px;
+    font-weight: 800;
+    margin: 17px 34px 22px 11px;
+}
+
+
+.sikhxya{
+    margin: 36px 735px 7px 120px;
+}
+
+
+
+.sikhxya p {
+    font-weight: 600;
+    font-size: x-large;
 }
