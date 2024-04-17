@@ -29,7 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 19px 16px 19px 16px;
+    /* padding: 19px 16px 19px 16px; */
     background-color: rgb(0, 162, 216);
 }
 
@@ -105,7 +105,7 @@ input {
     /* background-color:rgb(40, 147, 183); ; */
 }
 
-button {
+.s {
     height: 33px;
     background-color: rgb(40, 147, 183);
     ;
@@ -163,7 +163,7 @@ button {
 }
 
 .news1 p {
-    padding: 62px 127px 62px 127px;
+    padding: 80px 24px 62px 24px;
     text-align: center;
     font-size: x-large;
 }
@@ -175,18 +175,20 @@ button {
     width: 1200px;
     margin-left: 120px;
     margin-right: 120px;
+    padding: 32px 32px 32px 32px;
 }
 
-.news2 {
+/* .news2 {
 
     margin: 32px 129px 28px 129px;
 
-}
+} */
 
 .news2 p {
-    font-size: large;
+    font-size: x-large;
     text-align: center;
     font-weight: 400;
+    margin: 32px 129px 28px 129px;
 }
 
 .imagecontainer img {
@@ -201,7 +203,8 @@ button {
 }
 
 .news3 p {
-    font-size: small;
+    font-size: medium;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -488,17 +491,24 @@ button {
 .photos>div {
     border: 1px solid lightgrey;
     margin-right: 24px;
-  
+
 }
-.photo1 img , .photo2 img , .photo3 img{
+
+.photo1 img,
+.photo2 img,
+.photo3 img {
     height: 215px;
     width: 255px;
 }
-.photo1,.photo2,.photo3{
-height: 310px;
-width: 255px;
+
+.photo1,
+.photo2,
+.photo3 {
+    height: 310px;
+    width: 255px;
 }
-.sentence{
+
+.sentence {
     width: 210px;
     height: 56px;
     font-weight: 800;
@@ -506,7 +516,7 @@ width: 255px;
 }
 
 
-.sikhxya{
+.sikhxya {
     margin: 36px 735px 7px 120px;
 }
 
@@ -515,4 +525,216 @@ width: 255px;
 .sikhxya p {
     font-weight: 600;
     font-size: x-large;
+}
+
+.big {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.fourimage {
+
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+
+}
+
+.rectangle {
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.health {
+    margin: 36px 735px 7px 120px;
+}
+
+.health p {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+/* .below{
+    margin-bottom: 27px;
+} */
+.more {
+    background-color: blue;
+    width: 111px;
+    height: 39px;
+    padding: 8px 16px 8px 16px;
+    margin: 0px 1209px 57px 120px;
+    border-radius: 8px;
+}
+
+button p {
+    color: white;
+}
+
+footer {
+    height: 389px;
+    width: 100vw;
+    margin-top: 57px;
+    background-color: rgb(2, 100, 132)
+}
+
+.fourboxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+.box1 {
+    height: 214px;
+    width: 283px;
+    margin: 48px 46px 76px 106px;
+}
+
+.box1 img {
+    width: 263px;
+    height: 100px;
+}
+
+.box2 {
+    width: 315px;
+    height: 214px;
+    margin: 48px 46px 76px 0px;
+}
+
+.info {
+    width: 240px;
+    height: 28px;
+    margin: 19px 52px 21px 23px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info1 {
+    margin: 0px 15px 92px 23px;
+    color: white;
+    font-weight: lighter;
+}
+
+.box3 {
+    height: 214px;
+    width: 255px;
+    margin: 48px 46px 76px 46px;
+}
+
+.contact {
+    width: 187px;
+    height: 28px;
+    margin: 19px 49px 21px 19px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.contact1 {
+    width: 146px;
+    height: 50px;
+    margin: 0px 90px 16px 19px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.contact2 {
+    height: 26px;
+    width: 153px;
+    margin: 0px 83px 16px 19px;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.contact3 {
+
+    height: 26px;
+    width: 117px;
+    margin: 0px 12px 119px 19px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+.box4{
+    height: 214px;
+    width: 263px;
+    margin: 48px 80px 76px 0px;
+    color: white;
+    font-size: semi-bold;
+}
+.social{
+    height: 28px;
+    width: 121px;
+    color: white;
+    font-size: 18px;
+    margin: 19px 123px 21px 19px;
+    font-weight: 600;
+}
+.b{
+    margin: 0px 105px 110px 26px; 
+ 
+}
+.btn{
+    border: 2px solid blue;
+    border-radius: 999px ;
+    background-color: blue;
+    height: 36px;
+    width: 36px;
+    margin-right: 8px;
+    color: white;
+    
+}
+.fline{
+    height: 1px;
+    width: 100vw;
+    border: 1px solid grey;
+    background-color: white;
+}
+.fbelow{
+    height: 51px;
+    width: 1196px;
+    margin: 0px 122px 0px 122px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ltd{
+    color: white;
+    height: 18px;
+    width: 253px;
+    font-size: 12px;
+    margin: 15px 827px 17px 0px;
+
+}
+.site{
+color: white;
+height: 18px;
+width: 114px;
+font-size: 12px;
+margin-top: 15px;
+margin-bottom: 17px;
 }
