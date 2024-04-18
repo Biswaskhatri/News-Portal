@@ -392,7 +392,7 @@ input {
 .threeimages>div {
     /* /* flex: 1; */
     border: 1px solid lightgrey;
-    margin: 15px;
+   margin-right: 24px;
 }
 
 .imgmarg {
@@ -703,7 +703,7 @@ input {
     margin-bottom: 27px;
 } */
 .more {
-    background-color: blue;
+    background-color: rgb(2, 100, 132);
     width: 111px;
     height: 39px;
     padding: 8px 16px 8px 16px;
