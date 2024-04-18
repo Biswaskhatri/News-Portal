@@ -534,26 +534,153 @@ input {
 }
 
 .fourimage {
-
-    border: 2px solid black;
-    height: 30px;
-    width: 30px;
+    height: 1312px;
+    width: 255px;
+    margin: 0px 64px 0px 120px;
 
 }
+
+.fourimage>div {
+    border: 1px solid lightgrey;
+    margin-bottom: 24px;
+
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+    height: 310px;
+    width: 255px;
+}
+
+.fourimage img {
+    height: 215px;
+    width: 255px;
+}
+
+.fourimage p {
+    height: 56px;
+    width: 210px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 17px 34px 22px 11px;
+}
+
 
 .rectangle {
-    border: 2px solid black;
-    height: 30px;
-    width: 30px;
+
+    height: 1292px;
+    width: 511px;
+    margin: 0px 490px 0px 0px;
+}
+
+.r img {
+    height: 242px;
+    width: 342px;
+    margin-right: 77px;
+    margin-left: 92px;
+    margin-bottom: 28px;
+    z-index: 1;
+}
+
+.rectangle1 {
+    display: flex;
+    flex-direction: column;
+    height: 1143px;
+    width: 511px;
+    margin-top: -125px;
+    margin-right: 490px;
+    background-color: rgb(2, 100, 132)
+}
+
+.ten {
+    height: 143px;
+    width: 405px;
+    margin: 121px 39px 39px 59px;
+}
+
+.ten1 {
+    color: white;
+    margin-bottom: 24px;
+    text-align: center;
+
+    width: 423px;
+    font-size: 25px;
+}
+
+.ten2 {
+    color: white;
+    text-align: center;
+}
+
+.white {
+    width: 496px;
+    height: 1px;
+    background-color: white;
+    margin-right: 7px;
+    margin-left: 8px;
+}
+
+.month1 {
+    display: flex;
+    flex-direction: row;
+    height: 168px;
+    width: 466px;
+    margin: 62px 15px 54px 15px;
+}
+
+.month1 img {
+    height: 168px;
+    width: 188px;
+    margin-right: 47px;
 
 }
 
+.ten3 {
+    display: flex;
+    flex-direction: column;
+}
 
+.ten4 {
+    color: white;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
 
+.ten5 {
+    color: white;
+}
 
+.month2 {
+    display: flex;
+    flex-direction: row;
+    height: 168px;
+    width: 466px;
+    margin: 62px 15px 54px 15px;
+}
 
+.month2 img {
+    height: 168px;
+    width: 188px;
+    margin-right: 47px;
 
+}
 
+.month3 {
+    display: flex;
+    flex-direction: row;
+    height: 168px;
+    width: 466px;
+    margin: 62px 15px 54px 15px;
+}
+
+.month3 img {
+    height: 168px;
+    width: 188px;
+    margin-right: 47px;
+
+}
 
 
 
@@ -591,7 +718,7 @@ button p {
 footer {
     height: 389px;
     width: 100vw;
-    margin-top: 57px;
+
     background-color: rgb(2, 100, 132)
 }
 
@@ -679,14 +806,16 @@ footer {
     font-weight: lighter;
 
 }
-.box4{
+
+.box4 {
     height: 214px;
     width: 263px;
     margin: 48px 80px 76px 0px;
     color: white;
     font-size: semi-bold;
 }
-.social{
+
+.social {
     height: 28px;
     width: 121px;
     color: white;
@@ -694,27 +823,31 @@ footer {
     margin: 19px 123px 21px 19px;
     font-weight: 600;
 }
-.b{
-    margin: 0px 105px 110px 26px; 
- 
+
+.b {
+    margin: 0px 105px 110px 26px;
+
 }
-.btn{
+
+.btn {
     border: 2px solid blue;
-    border-radius: 999px ;
+    border-radius: 999px;
     background-color: blue;
     height: 36px;
     width: 36px;
     margin-right: 8px;
     color: white;
-    
+
 }
-.fline{
+
+.fline {
     height: 1px;
     width: 100vw;
     border: 1px solid grey;
     background-color: white;
 }
-.fbelow{
+
+.fbelow {
     height: 51px;
     width: 1196px;
     margin: 0px 122px 0px 122px;
@@ -722,7 +855,8 @@ footer {
     flex-direction: row;
     justify-content: space-around;
 }
-.ltd{
+
+.ltd {
     color: white;
     height: 18px;
     width: 253px;
@@ -730,11 +864,12 @@ footer {
     margin: 15px 827px 17px 0px;
 
 }
-.site{
-color: white;
-height: 18px;
-width: 114px;
-font-size: 12px;
-margin-top: 15px;
-margin-bottom: 17px;
+
+.site {
+    color: white;
+    height: 18px;
+    width: 114px;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 17px;
 }
