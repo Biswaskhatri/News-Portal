@@ -4,6 +4,8 @@
 
 }
 
+
+
 .top {
 
     display: flex;
@@ -14,11 +16,19 @@
 
 .top img {
     margin-top: 24px;
-
     height: 100%;
     width: 323px;
 }
 
+.smallad {
+
+    margin: 42px 120px 34px 363px;
+}
+
+.smallad img {
+    width: 513px;
+    height: 81px;
+}
 
 .main nav {
     margin-top: 33px;
@@ -392,7 +402,7 @@ input {
 .threeimages>div {
     /* /* flex: 1; */
     border: 1px solid lightgrey;
-   margin-right: 24px;
+    margin-right: 24px;
 }
 
 .imgmarg {
