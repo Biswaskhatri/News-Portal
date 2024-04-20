@@ -15,15 +15,54 @@
     border: 1px solid grey;
     box-shadow: 1px 2px 13px 0px grey;
 }
-h2{
+.login{
     height: 70px;
     width: 360px;
     margin-bottom: 16px;
     background-color: rgb(2, 100, 132);
     color: white;
-    font-size: 33px;
+    font-size: 23px;
     font-weight: bold;
 }
-h2 p{
-    margin: 10px 257px 10px 26px;
+h2 {
+    margin: 0px 257px 10px 26px;
+   height: 50px;
+   width: 77px;
+   display: flex;
+   justify-content: center;
+}
+form{
+    height: 323px;
+    width: 314px;
+    margin: 0px 23px 0px 23px;
+}
+#email{
+    height: 48px;
+    width: 314px;
+    
+}
+.e{
+    height: 87px;
+    width: 314px;
+    padding-bottom: 4px;
+    margin-bottom: 16px;
+    margin: 0px 23px 0px 23px;
+}
+.p{
+    height: 83px;
+    width: 314px;
+    padding-bottom: 4px;
+    margin: 0px 23px 0px 23px;
+}
+.btn{
+    height: 54px;
+    width: 314px;
+    border-radius: 4;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    background-color: rgb(105, 216, 105);
+}
+.psw{
+    width: 136px;
+    height: 35px;
 }
