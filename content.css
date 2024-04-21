@@ -180,4 +180,167 @@ input {
     height: 3268px;
     width: 813px;
     margin: 0px 507px 81px 120px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    direction: ltr; 
+}
+footer {
+    height: 389px;
+    width: 100vw;
+margin-top: 98px;
+    background-color: rgb(2, 100, 132)
+}
+
+.fourboxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+.box1 {
+    height: 214px;
+    width: 283px;
+    margin: 48px 46px 76px 106px;
+}
+
+.box1 img {
+    width: 263px;
+    height: 100px;
+}
+
+.box2 {
+    width: 315px;
+    height: 214px;
+    margin: 48px 46px 76px 0px;
+}
+
+.info {
+    width: 240px;
+    height: 28px;
+    margin: 19px 52px 21px 23px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info1 {
+    margin: 0px 15px 92px 23px;
+    color: white;
+    font-weight: lighter;
+}
+
+.box3 {
+    height: 214px;
+    width: 255px;
+    margin: 48px 46px 76px 46px;
+}
+
+.contact {
+    width: 187px;
+    height: 28px;
+    margin: 19px 49px 21px 19px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.contact1 {
+    width: 146px;
+    height: 50px;
+    margin: 0px 90px 16px 19px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.contact2 {
+    height: 26px;
+    width: 153px;
+    margin: 0px 83px 16px 19px;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.contact3 {
+
+    height: 26px;
+    width: 117px;
+    margin: 0px 12px 119px 19px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+
+.box4 {
+    height: 214px;
+    width: 263px;
+    margin: 48px 80px 76px 0px;
+    color: white;
+    font-size: semi-bold;
+}
+
+.social {
+    height: 28px;
+    width: 121px;
+    color: white;
+    font-size: 18px;
+    margin: 19px 123px 21px 19px;
+    font-weight: 600;
+}
+
+.b {
+    margin: 0px 105px 110px 26px;
+
+}
+
+.btn {
+    border: 2px solid blue;
+    border-radius: 999px;
+    background-color: blue;
+    height: 36px;
+    width: 36px;
+    margin-right: 8px;
+    color: white;
+
+}
+
+.fline {
+    height: 1px;
+    width: 100vw;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.fbelow {
+    height: 51px;
+    width: 1196px;
+    margin: 0px 122px 0px 122px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ltd {
+    color: white;
+    height: 18px;
+    width: 253px;
+    font-size: 12px;
+    margin: 15px 827px 17px 0px;
+
+}
+
+.site {
+    color: white;
+    height: 18px;
+    width: 114px;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 17px;
 }
