@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+
+    display: flex;
+    display: inline-block;
+    margin-left: 120px;
+
+}
+
+.top img {
+    margin-top: 24px;
+    height: 100%;
+    width: 323px;
+}
+
+.smallad {
+
+    margin: 42px 120px 34px 363px;
+}
+
+.smallad img {
+    width: 513px;
+    height: 81px;
+}
+
+.main nav {
+    margin-top: 33px;
+    height: 71px;
+    width: 1200px;
+    margin-left: 120px;
+    /* margin-right: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 19px 16px 19px 16px; */
+    background-color: rgb(0, 162, 216);
+}
+
+
+.wh a {
+    color: beige;
+    text-decoration: none;
+
+}
+
+.main nav li {
+    display: inline-block;
+    padding: 19px 16px 19px 16px;
+    height: 33px;
+
+}
+
+
+
+
+/* .nav li > a:first-child {
+    padding: 16px 10px 16px 0px;
+
+} */
+
+.main nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.main nav li a:hover {
+    background-color: #d01313;
+    padding: 5px;
+
+}
+
+.dropdown-toggle {
+    position: relative;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(40, 147, 183);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li:hover {
+    background-color: rgb(40, 147, 183);
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: grid;
+    background-color: rgb(40, 147, 183);
+}
+
+.sch {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    height: 33px;
+    width: 120px;
+    /* background-color:rgb(40, 147, 183); ; */
+}
+
+.s {
+    height: 33px;
+    background-color: rgb(40, 147, 183);
+    ;
+}
+
+.ad img {
+    height: 147px;
+    width: 862px;
+    margin: 52px 276px 51px 302px;
+}
+
+.move {
+    text-align: right;
+    display: flex;
+}
+
+.fixed {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: 120px;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    padding: 7px 9px 7px 5px;
+    height: 54px;
+    width: 165.4px;
+}
+
+
+
+
+
+.moveright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 147.5px;
+    background-color: rgb(40, 147, 183);
+    color: white;
+    padding: 7px 9px 7px 5px;
+}
