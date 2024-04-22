@@ -726,7 +726,7 @@ button p {
 }
 
 footer {
-    height: 389px;
+    /* height: 389px; */
     width: 100vw;
 
     background-color: rgb(2, 100, 132)
