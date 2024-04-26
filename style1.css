@@ -279,7 +279,7 @@ input {
 
 footer {
     /* height: 389px; */
-    width: 100vw;
+    width: fit-content;
 margin-top: 98px;
     background-color: rgb(2, 100, 132)
 }
@@ -404,7 +404,7 @@ margin-top: 98px;
 
 .fline {
     height: 1px;
-    width: 100vw;
+    width: auto;
     border: 1px solid grey;
     background-color: white;
 }
