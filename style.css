@@ -3,7 +3,9 @@
     padding: 0;
 
 }
-
+*{
+    box-sizing: border-box;
+}
 
 
 .top {
@@ -727,7 +729,7 @@ button p {
 
 footer {
     /* height: 389px; */
-    width: 100vw;
+    width: fit-content;
 
     background-color: rgb(2, 100, 132)
 }
@@ -852,7 +854,7 @@ footer {
 
 .fline {
     height: 1px;
-    width: 100vw;
+    width: auto;
     border: 1px solid grey;
     background-color: white;
 }
@@ -882,4 +884,10 @@ footer {
     font-size: 12px;
     margin-top: 15px;
     margin-bottom: 17px;
+}
+
+
+@media  screen and (max-width:1440px) {
+
+    
 }
