@@ -16,8 +16,8 @@
     box-shadow: 1px 2px 13px 0px grey;
 }
 .login{
-    height: 70px;
-    width: 360px;
+    /* height: 70px;
+    width: 360px; */
     margin-bottom: 16px;
     background-color: rgb(2, 100, 132);
     color: white;
@@ -26,8 +26,9 @@
 }
 h2 {
     margin: 0px 257px 10px 26px;
-   height: 50px;
-   width: 77px;
+   /* height: 50px;
+   width: 77px; */
+   padding: 15px;
    display: flex;
    justify-content: center;
 }
@@ -42,27 +43,42 @@ form{
     
 }
 .e{
-    height: 87px;
-    width: 314px;
-    padding-bottom: 4px;
-    margin-bottom: 16px;
-    margin: 0px 23px 0px 23px;
+    /* height: 87px;
+    width: 314px; */
+    padding-bottom: 16px;
+    /* margin-bottom: 16px; */
+    /* margin: 0px 23px 0px 23px; */
 }
 .p{
-    height: 83px;
-    width: 314px;
+    /* height: 83px;
+    width: 314px; */
     padding-bottom: 4px;
-    margin: 0px 23px 0px 23px;
+    /* margin: 0px 23px 0px 23px; */
 }
 .btn{
     height: 54px;
     width: 314px;
-    border-radius: 4;
+    border-radius: 4px;
     margin-top: 32px;
     margin-bottom: 16px;
     background-color: rgb(105, 216, 105);
+    color: white;
+    font-size: 20px;
 }
 .psw{
     width: 136px;
     height: 35px;
 }
+.psw a:hover{
+    color: blue;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
