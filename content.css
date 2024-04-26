@@ -181,14 +181,17 @@ input {
     width: 813px;
     margin: 0px 507px 81px 120px;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.6;
     text-align: justify;
     direction: ltr; 
 }
+div p{
+    word-spacing: 16px;
+}
 footer {
     height: 389px;
-    width: 100vw;
+    width: fit-content;
 margin-top: 98px;
     background-color: rgb(2, 100, 132)
 }
@@ -313,7 +316,7 @@ margin-top: 98px;
 
 .fline {
     height: 1px;
-    width: 100vw;
+    width: auto;
     border: 1px solid grey;
     background-color: white;
 }
