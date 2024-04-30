@@ -52,7 +52,7 @@ form{
 .p{
     /* height: 83px;
     width: 314px; */
-    padding-bottom: 4px;
+    /* padding-bottom: 4px; */
     /* margin: 0px 23px 0px 23px; */
 }
 .btn{
@@ -80,5 +80,6 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    border-radius: 5px;
   }
   
