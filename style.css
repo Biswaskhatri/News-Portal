@@ -225,7 +225,12 @@ input {
     margin: 64px 1125px 16px 120px;
     font-size: x-large;
     font-weight: bolder
+    
 }
+.taja p{
+width: 195px;
+}
+
 
 .line {
     margin: 16px 120px 52px 120px;
@@ -335,6 +340,7 @@ input {
 .international p {
     font-weight: 600;
     font-size: x-large;
+    width: 270px;
 }
 
 .lines {
@@ -420,6 +426,7 @@ input {
 .artha p {
     font-weight: 600;
     font-size: x-large;
+    width: 275px;
 }
 
 .slines {
