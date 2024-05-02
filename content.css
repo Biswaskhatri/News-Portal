@@ -144,6 +144,9 @@ input {
     height: 54px;
     width: 165.4px;
 }
+.fixed p{
+    word-spacing: 2px;
+}
 
 
 
